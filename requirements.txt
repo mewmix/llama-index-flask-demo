@@ -1,0 +1,2 @@
+Flask==2.2.3
+llama_index==0.4.15
