@@ -1,3 +1,4 @@
+
 # llama-index flask demo
 
 ### Screenshots
@@ -7,7 +8,7 @@
 
 
 ### Notes
-Implementing https://github.com/jerryjliu/gpt_index and their connectors (in this example twitter from llama-hub [https://llamahub.ai/] https://github.com/emptycrown/llama-hub/tree/main/loader_hub/twitter in a flask application for prototyping and demo. Needs more work for additional prompt saving. Credit to https://github.com/jdan/98.css for the CSS.
+Implementing https://github.com/jerryjliu/gpt_index and their connectors (in this example twitter from [llama-hub](https://llamahub.ai/)  [twitter_loader](https://github.com/emptycrown/llama-hub/tree/main/loader_hub/twitter) in a flask application for prototyping and demo. Needs more work for additional prompt saving. Credits to [jdan](https://github.com/jdan/98.css ) for the CSS.
 
 
 ### Requires OpenAI API Key & Twitter Developer Key (Bearer Token)
