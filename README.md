@@ -2,7 +2,7 @@
 
 
 ### Notes
-Implementing llama-index and their connectors in a flask application for prototyping and demo. Needs more work for additional prompt saving. Credit to https://github.com/jdan/98.css for the CSS.
+Implementing https://github.com/jerryjliu/gpt_index and their connectors (in this example twitter from https://github.com/emptycrown/llama-hub/tree/main/loader_hub/twitter in a flask application for prototyping and demo. Needs more work for additional prompt saving. Credit to https://github.com/jdan/98.css for the CSS.
 
 ## install
 
