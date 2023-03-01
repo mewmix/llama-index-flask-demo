@@ -9,15 +9,15 @@ Implementing https://github.com/jerryjliu/gpt_index and their connectors (in thi
 ## install
 
 ```
-
+git clone https://github.com/mewmix/llama-index-flask-demo && cd llama-index-flask-demo
 
 
 pip install -r requirements.txt
 
 ```
 
+## edit the server.py file with your keys and then run.
 
-## Run
 
 ```
 python3 server.py
