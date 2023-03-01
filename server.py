@@ -62,6 +62,18 @@ def folder_results():
     return render_template('folder_results.html', results=results)
 
 
+## Define an upload route for the /data/ folder to upload files
+@app.route('/upload', methods=['POST'])
+def upload():
+    # Get the file from the form input
+    file = request.files['file']
+    # Save the file to the data folder
+    file.save(os.path.join('data', file.filename))
+    # Redirect to the folder_results page
+    return render_template('folder_results.html')
+
+
+
 
 if __name__ == '__main__':
     app.run(debug=True)
