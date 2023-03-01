@@ -69,8 +69,18 @@ def upload():
     file = request.files['file']
     # Save the file to the data folder
     file.save(os.path.join('data', file.filename))
+
+    index = load_folder()
+
+
+    ## Run the query on the uploaded file
+    # Get the search query from the form input
+    query = request.form['folder_query']
+    ## Perform the query on the index and extract the data
+    results = index.query(query)
+
     # Redirect to the folder_results page
-    return render_template('folder_results.html')
+    return render_template('folder_results.html', results=results)
 
 
 

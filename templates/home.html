@@ -1,75 +1,31 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <style>
-      /* Set the width of the body to 100% */
-body {
-  width: auto;
-  height: auto;
-  background-color: #1c80a2;
-  font-size: 80px;
-
-}
-
-/* Set the maximum width of the page content to 800px */
-.main-content {
-  max-width: auto;
-  margin: 0 auto;
-  color: #1c80a2;
-  font-size: 80px;
-
-
-
-
-}
-
-/* Make the forms responsive  */
-form {
-  width: auto;
-  height: auto;
-  padding: 10px;
-  margin: 10px;
-  background-color: #fff;
-  border: 1px solid #1c80a2;
-  border-radius: 5px;
-  font-size: 80px;
-
-
-}
-
-/* Set the width of the text input fields to 100% */
-input[type="text"] {
-  width: 100%;
-  box-sizing: border-box;
-  padding: 10px;
-  margin-bottom: 10px;
-}
-
-/* Center the submit buttons */
-input[type="submit"] {
-  display: block;
-  margin: 0 auto;
-}
-
-    </style>
-    <title>Twitter Search</title>
+    <title>Index GPT Search</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/98.css">
-  </head>
+    <link rel="stylesheets" href="/static/style.css">
+  </head><center>
   <body class="windows">
     <h1 class="window">Twitter Search</h1>
     <form action="/results" method="POST" class="window">
-      <label for="handles">Twitter Handles:</label><br>
+      <label for="handles">Twitter Handle:</label><br>
       <input type="text" id="handles" name="handles"><br>
       <label for="query">Query:</label><br>
       <input type="text" id="query" name="query"><br><br>
       <input type="submit" value="Submit">
     </form>
 
-    <h1 class="window">Folder Search</h1>
+    <h1 class="window">File Search & Upload</h1>
+    <form action="/upload" method="POST" class="window" enctype="multipart/form-data">
+      <label for="file">File:</label><br>
+      <input type="file" id="file" name="file"><br><br>
+      <input type="submit" value="Submit File & Query">
+      <br> <br><br>
     <form action="/folder_results" method="POST" class="window">
       <label for="folder_query">Prompt(Query):</label><br>
       <input type="text" id="folder_query" name="folder_query"><br><br>
       <input type="submit" value="Submit">
     </form>
   </body>
+</center>
 </html>

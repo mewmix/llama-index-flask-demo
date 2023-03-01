@@ -1,0 +1,109 @@
+
+/* Center all text */
+body,
+.main-content,
+form {
+  text-align: center;
+}
+
+/* Increase font size to fill whitespace */
+body {
+  font-size: 200px;
+}
+
+.main-content,
+form {
+  font-size: 150px;
+}
+
+/* Media queries for smaller screens */
+@media (max-width: 768px) {
+  body {
+    font-size: 100px;
+  }
+
+  .main-content,
+  form {
+    font-size: 80px;
+  }
+}
+
+body {
+    width: 100%;
+    height: auto;
+    background-color: #e4f5f9;
+    font-size: 120px;
+  }
+  
+  /* Set the maximum width of the page content to 800px */
+  .main-content {
+    max-width: 100%;
+    margin: 0 auto;
+    color: #1c80a2;
+    font-size: 120px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Make the forms responsive */
+  form {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #fff;
+    border: 1px solid #1c80a2;
+    border-radius: 10px;
+    font-size: 120px;
+    box-sizing: border-box;
+  }
+  
+  /* Set the width of the text input fields to 100% */
+  input[type="text"] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 120px;
+  }
+  
+  /* Center the submit buttons */
+  input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    font-size: 120px;
+    padding: 20px;
+    border: none;
+    background-color: #1c80a2;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    box-sizing: border-box;
+  }
+  
+  /* Responsive media queries for smaller screens */
+  @media (max-width: 768px) {
+    body {
+      font-size: 60px;
+    }
+  
+    .main-content {
+      font-size: 60px;
+    }
+  
+    form {
+      font-size: 60px;
+    }
+  
+    input[type="text"] {
+      font-size: 60px;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+  
+    input[type="submit"] {
+      font-size: 60px;
+      padding: 10px;
+    }
+  }
+  
