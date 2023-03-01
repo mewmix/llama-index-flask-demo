@@ -1,11 +1,14 @@
-# flask-twitter-llama-index
+#
 
+
+### Notes
+Implementing llama-index and their connectors in a flask application for prototyping and demo. Needs more work for additional prompt saving. Credit to https://github.com/jdan/98.css for the CSS.
 
 ## install
 
 ```
 
-git clone https://github.com/mewmix/flask-twitter-llama-index && cd flask-twitter-llama-index
+
 
 pip install -r requirements.txt
 
@@ -26,9 +29,6 @@ http://127.0.0.1:5000/
 ```
 
 
-### Play on Web
-```
-https://index42.pythonanywhere.com/
 ```
 
 ### Screenshots
@@ -45,3 +45,4 @@ What would be a trendy summary tweet based on this user?
 
 
 ### File upload requires data (supporting docx) in the /data/ folder
+# llama-index-flask-demo
