@@ -26,6 +26,11 @@ http://127.0.0.1:5000/
 ```
 
 
+### Play on Web
+```
+https://index42.pythonanywhere.com/
+```
+
 ### Screenshots
 <img width="326" alt="Screen Shot 2023-02-28 at 3 52 03 PM" src="https://user-images.githubusercontent.com/42463809/222009897-25e8f4e6-018b-4187-b354-7f162316ee61.png">
 <img width="1440" alt="Screen Shot 2023-02-28 at 3 54 07 PM" src="https://user-images.githubusercontent.com/42463809/222009893-7f256988-5cb4-45b1-8f84-05d40985b563.png">
@@ -39,3 +44,4 @@ What would be a trendy summary tweet based on this user?
 ```
 
 
+### File upload requires data (supporting docx) in the /data/ folder
