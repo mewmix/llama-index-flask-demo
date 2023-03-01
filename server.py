@@ -3,7 +3,7 @@ import os
 from llama_index import GPTSimpleVectorIndex, SimpleDirectoryReader, download_loader
 import docx2txt
 
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = 'your key here'
 
 
 app = Flask(__name__)
@@ -14,7 +14,7 @@ TwitterTweetReader = download_loader("TwitterTweetReader")
 # Define a function to load the Twitter data using the TwitterTweetReader
 def load_twitter_data(handles):
     # Replace 'YOUR_TOKEN' with your actual Twitter API bearer token
-    loader = TwitterTweetReader(bearer_token="AAAAAAAAAAAAAAAAAAAAAPw%2FNAEAAAAAym1knneHc4gxDegizHHwyjzfggc%3DaQP4et1DilYTU6lJdU4AxsKA1Wr7FZuvcSkDiTH6m5WWxZHR1S")
+    loader = TwitterTweetReader(bearer_token="your key here")
     documents = loader.load_data(twitterhandles=handles)
     index = GPTSimpleVectorIndex(documents)
     return index
