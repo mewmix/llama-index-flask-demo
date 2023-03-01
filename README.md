@@ -29,7 +29,6 @@ http://127.0.0.1:5000/
 ```
 
 
-```
 
 ### Screenshots
 <img width="326" alt="Screen Shot 2023-02-28 at 3 52 03 PM" src="https://user-images.githubusercontent.com/42463809/222009897-25e8f4e6-018b-4187-b354-7f162316ee61.png">
